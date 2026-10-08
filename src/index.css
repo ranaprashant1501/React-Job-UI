@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    padding: 20px;
+    background-color: black;
+}
+
+#parent{
+    display: flex;
+    /* align-content: flex-start; */
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card{
+    border: 1px solid black;
+    width: 18vmax;
+    border-radius: 1.5rem;
+    background-color: white;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.logo{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid rgb(184, 183, 183);
+    text-align: center;
+    line-height: 36px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    border: 2px solid rgba(128, 128, 128, 0.446);
+    border-radius: 5px;
+    color: rgb(85, 84, 84);
+    font-weight: 700;
+    padding: 5px 8px;
+    align-self: self-start;
+}
+
+
+
+.center{
+    margin-top: 5px;
+    font-family: "Clarity City", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.company{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.company span{
+    font-size: 0.7rem;
+    color: rgba(110, 109, 109, 0.683);
+}
+.passion{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.tag{
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+.tag button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(234, 234, 234);
+    font-weight: 600;
+    padding: 3px 6px;
+    color: rgb(99, 97, 97);
+}
+
+
+.bottom {
+    margin: 80px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 5% 0 5%;
+    font-family: "Clarity City", sans-serif;
+
+    position: relative;
+}
+
+.bottom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 0.341);
+}
+
+.pay{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.location{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.756);
+}
+
+.bottom button{
+    padding: 5px 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
